@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #6F7789;
+}
+
+div.userCard {
+    background-color: white;
+    min-width: 300px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+    min-height: 500px;
+    text-align: center;
+    margin: 20px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    box-shadow: 3px 3px 7px #426AE0;
+}
+
+.userName>p {
+    font-size: 2em;
+    margin: 30px;
+    font-weight: bold;
+    color: #393D45;
+}
+
+div.cardContent {
+    background-color: #393D45;
+    color: white;
+}
+
+div.userImage {
+    overflow: hidden;
+    display: inline-block;
+    margin: 40px 0 0;
+    border-radius: 100%;
+    box-shadow: 2px 2px 7px #426AE0;
+    height: 150px;
+}
+
+div.userImage img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+div.userInfo>p {
+    margin: 0;
+    padding: 30px;
+}
+
+
+div.userStatContainer {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+p.number {
+    font-size: 1.5em;
+}
+
+div.userStatContainer>p {
+    margin: 0;
+}
+
+div.cardButtons button {
+    margin: 20px 10px 30px;
+    width: 35%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+
+button.followButton {
+    background-color: #426AE0;
+    border: 1px solid #426AE0;
+    color: white;
+}
+
+button.messageButton {
+    background-color: white;
+    border: 1px solid white;
+    color: #393D45;
+}
+
+button.followButton:hover {
+    background-color: white;
+    color: #393D45;
+}
+
+button.messageButton:hover {
+    background-color: #393D45;
+    color: white;
+}
